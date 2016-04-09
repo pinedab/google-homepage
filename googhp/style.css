@@ -1,0 +1,146 @@
+p {
+	color:  #808080;
+}
+
+p:hover {
+	text-decoration: underline;
+}
+
+
+/****************
+TOP
+****************/
+
+.gmail, .images, .name {
+	color: #808080;
+}
+
+
+
+.gmail:hover, .images:hover {
+	text-decoration: underline;
+	color: darkgray;
+}
+
+header, footer {
+	font: small arial, sans-serif; 
+
+}
+.nav{
+	display: inline;
+	padding: 20px 8px 0;
+}
+  
+
+header{	
+	float: right;
+	margin: 10px 30px;
+
+}
+
+/****************
+top - SVG
+****************/
+
+svg:hover #apps, svg:hover #bell, svg:hover #home { 
+  fill: #aaa;
+}
+
+/****************
+Main
+****************/
+
+#main {
+	margin: auto;
+	position: absolute;
+	left: 30%;
+	top: 25%;
+	font: arial;
+
+}
+
+#logo {
+	margin: 0 auto;
+	position: relative;
+	left: 100px;
+	width: 350px;
+	height: 193px;
+	bottom: 25px;
+
+}
+
+#searchbox {
+	position: relative;
+	width: 580px;
+	height: 32px;
+	line-height: 26px;
+	top: -40px;
+	left: -10px;
+	color: #121212;
+}
+
+.button {
+	display: inline-block;
+	width: 23%;
+	height: 36px;
+    line-height: 27px;
+    bottom: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-size: 13px;
+    font-weight: bold;
+
+
+}
+
+.searchb{
+	position: relative;
+	left: 133px;
+}
+
+.luckyb{
+	position: relative;
+	left: 133px;		
+}
+
+
+/****************
+bottom
+****************/
+footer {
+	background: #eee;
+	border-top: 0.165em #ddd;
+	margin: auto;
+	padding: 0;
+	width: 100%;
+	height: 2.9em;
+	font-size: 0.75em;
+	position: absolute;
+	clear: both;
+	bottom: 0;
+	
+}
+
+#bottom{
+
+	width: 100%;
+	bottom: 0;
+}
+
+.bottom {
+	
+	bottom: 0;
+	display: inline-block;
+	margin: auto;
+}
+
+.leftside{padding: 8px 0 0 25px ;}
+.rightside{float:right; padding: 8px 25px 0 0}
+
+
+
+
+
+
